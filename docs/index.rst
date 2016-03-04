@@ -1,0 +1,5 @@
+====================
+siglod.theme
+====================
+
+User documentation

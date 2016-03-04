@@ -1,0 +1,8 @@
+/*--------------------------------------------------------------------*/
+/*   University – Education HTML Template
+/*--------------------------------------------------------------------*/
+
+01 DECEMBER 2015 - Version 1.0.1
+	
+	- Added: Contact form
+	- Fixed: Removed 1px line under primary navigation in header

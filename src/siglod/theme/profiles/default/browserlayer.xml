@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+      name="siglod.theme"
+      interface="siglod.theme.interfaces.ISiglodThemeLayer"
+      />
+</layers>

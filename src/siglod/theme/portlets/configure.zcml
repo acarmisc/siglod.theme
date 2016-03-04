@@ -1,0 +1,23 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="siglod.theme">
+
+    <!-- Ensure Plone's portlets ZCML has already been processed;
+        without this, we may get a permission lookup error -->
+
+    <include package="plone.app.portlets" />
+    <include package="Products.CMFCore" file="permissions.zcml" />
+
+    <plone:portlet
+        name="siglod.theme"
+        interface=".stylish_block.IStylishPortlet"
+        assignment=".stylish_block.Assignment"
+        view_permission="zope2.View"
+        edit_permission="cmf.ManagePortal"
+        renderer=".stylish_block.Renderer"
+        addview=".stylish_block.AddForm"
+        editview=".stylish_block.EditForm"
+        />
+
+</configure>
