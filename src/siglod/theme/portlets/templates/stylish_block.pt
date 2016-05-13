@@ -1,1 +1,7 @@
-<div tal:content="context/getHeadline" />
+
+<div tal:attributes="class python: context.getCssClasses()+' stylish-block-container'">
+
+  <h2 class="stylish-block-head" tal:content="context/getHeadline" />
+  <div tal:content="structure context/getBodyText" />
+
+</div>

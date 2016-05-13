@@ -229,7 +229,8 @@ a:hover { text-decoration: underline; }
 	max-width: 150px;
 	line-height: 1.1;
 	font-size: 12px;
-	font-weight: 500;
+	/*font-weight: 500;*/
+	font-weight: auto;
 	text-align: center;
 	text-transform: uppercase;
 	color: black;
@@ -622,14 +623,14 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 	width: 225px;
 	height: 60px;
 	position: absolute;
-	top: 50%;
+	top: 50px;
 	left: 30px;
 	margin-top: -30px;
 }
 
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), 
-	only screen and (-moz-min-device-pixel-ratio: 1.5), 
-	only screen and (-o-min-device-pixel-ratio: 3/2), 
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-moz-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
 	only screen and (min-device-pixel-ratio: 1.5) {
 
 		#header-logo
@@ -648,7 +649,10 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 	float: left;
 }
 
-.header-item { position: relative; }
+.header-item {
+	position: relative;
+	height: 150px;
+}
 
 #menu-open
 {
@@ -755,7 +759,7 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 	position: relative;
 	display: block;
 	line-height: 1.2;
-	padding: 5px 15px;
+	padding: 5px 12px;
 
 	-webkit-transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
 	-o-transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
@@ -1101,6 +1105,7 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 	position: relative;
 	color: #fff;
 	text-transform: uppercase;
+
 }
 
 .block-courses .title
@@ -1128,7 +1133,10 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 	padding: 0 15px;
 }
 
-.block-courses .description { background-color: rgba(61, 61, 61, 0.7) !important; }
+.block-courses .description {
+    /* background-color: rgba(61, 61, 61, 0.7) !important; */
+     margin-top: 60px;
+}
 
 .block-with-date .description:before
 {
@@ -1207,7 +1215,9 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 
 .block-courses .text p { margin-bottom: 10px; }
 
-.text-block { padding-bottom: 60px; }
+.text-block {
+    /* padding-bottom: 60px; */
+}
 
 .text-block.bg-4
 {
@@ -1227,8 +1237,8 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 
 .text-block .more-link
 {
-	position: absolute;
-	bottom: 35px;
+	/* position: absolute; */
+	margin-top: 22px;
 }
 
 
@@ -1791,9 +1801,9 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 	margin-bottom: 10px;
 }
 
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), 
-	only screen and (-moz-min-device-pixel-ratio: 1.5), 
-	only screen and (-o-min-device-pixel-ratio: 3/2), 
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-moz-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
 	only screen and (min-device-pixel-ratio: 1.5) {
 
 		#footer-logo
@@ -1993,9 +2003,9 @@ form input[type="checkbox"]:checked + span:before { opacity: 1; }
 	background: url(../images/header_logo_1_1.png);
 }
 
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), 
-	only screen and (-moz-min-device-pixel-ratio: 1.5), 
-	only screen and (-o-min-device-pixel-ratio: 3/2), 
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-moz-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
 	only screen and (min-device-pixel-ratio: 1.5) {
 
 		#header-logo_2
@@ -2211,4 +2221,283 @@ input[type='checkbox'] {
 .portletAssignments > .portlet-action {
   display: inline-block !important;
   font-size: 140%;
+}
+
+.graybox {
+  background-color: #555;
+  color: white !important;
+}
+
+.darkgraybox {
+  background-color: #333;
+  color: white !important;
+}
+
+.whitebox {
+  background-color: #FFF;
+  color: black !important;
+  padding: 5px;
+}
+
+.whitebox > .stylish-block-head {
+    display: none;
+}
+
+
+.brand-portlet {
+  background-color: white;
+  padding: 10px;
+  border-left: 1px dotted #ddd;
+}
+
+.brand-portlet h2 {
+  font-weight: 200;
+  line-height: 120%;
+  color: #999;
+}
+
+.brand-portlet h3 {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+
+.portlet-static-loghi {
+  background-color: white;
+  border-left: 1px dotted #ddd;
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.logo-table {
+  width: 100%;
+}
+
+.logo-table td {
+  padding: 20px;
+}
+
+.block-courses {
+
+}
+
+.portlet-static-loghi table {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#content {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+#content p {
+  font-size: 1.2em !important;
+  line-height: 1.7em;
+}
+
+#content li {
+  font-size: 1.2em !important;
+  line-height: 1.7em;
+}
+
+
+.slide {
+}
+
+#portal-top {
+  background-color: black;
+}
+
+#header-slogan-headline {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: left;
+}
+
+.portlet-action button {
+  display: inline-block;
+  width: auto;
+  padding: 0px;
+}
+
+.text-block {
+  /* border-bottom: 10px solid #ccc; */
+  /* box-shadow: 3px 5px 10px rgba(0,0,0,0.2); */
+}
+
+.contentwellportlets {
+  box-shadow: 3px 5px 10px rgba(0,0,0,0.2);
+}
+
+#content a:link, dl.portlet a:visited {
+    color: #a55198;
+    border-bottom: none;
+}
+
+dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
+    padding: 0px;
+}
+
+dl.portlet dt {
+    padding: 0px;
+}
+
+
+.info-item > a {
+    color: white;
+}
+
+
+.logo-block {
+  background-color: white;
+  text-align: center;
+  padding: 0px;
+  float: right;
+}
+
+.logo-link img {
+  margin-left: 10px;
+}
+
+
+.matchHeight-container {
+    background-color: white;
+}
+
+.column-description > div.text {
+  color: white !important;;
+}
+
+.column-description h1 {
+    color: white !important;
+}
+
+.activities-items {
+  position: relative;
+  top: -30px;
+}
+
+.activities-items li {
+  list-style: none;
+}
+
+.activities-item-num {
+  width: 8%;
+  display: table-cell;
+}
+
+.activities-item-desc {
+  display: table-cell;
+  padding-right: 20px;
+  width: 85%;
+}
+
+.activities-item-type {
+  width: 100px;
+  display: table-cell;
+  text-align: right;
+}
+
+.h600 {
+    height: 600px;
+}
+
+
+.h500 {
+    height: 480px;
+}
+
+.h300 {
+    min-height: 300px !important;
+}
+
+.h200 {
+    min-height: 150px !important;
+}
+
+.h100 {
+    min-height: 180px !important;
+}
+
+.hspacer {
+    height: 30px;
+}
+
+.contact-blocks {
+  z-index: 2000;
+}
+
+.contact-block {
+  margin: 10px;
+  width: 23% !important;
+  border: 1px solid #ccc;
+}
+
+.contact-map-info {
+  padding: 5px;
+}
+
+.contact-map-block {
+  border-bottom: 1px solid #ccc;
+}
+
+.whiteez {
+    color: white;
+}
+
+.whiteez > a {
+    color: white !important;
+}
+
+.whiteez > a:hover {
+    color: #b973ae !important;
+}
+
+.agreement-block {
+    height: 100px;
+    width: 48% !important;
+    margin: 3px;
+    text-align: center;
+}
+
+.agreement-block h4 {
+    color: white;
+}
+
+.prj-image {
+  opacity: 0.4;
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+}
+
+#submenu > ul {
+    display: inline-table;
+}
+
+.sysaccess {
+    display: inline-table;
+    padding: 10px;
+    float: left;
+    color: white !important;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+}
+
+.welcome-teaser {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 130%;
+    text-align: center;
+}
+
+.welcome-teaser > strong {
+    font-weight: 600;
+}
+
+#content h1.documentFirstHeading {
+    display: none;
 }

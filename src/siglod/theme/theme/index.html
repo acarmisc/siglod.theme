@@ -34,55 +34,95 @@
 	</head>
 
 	<body class="bg-1">
-
 		<div id="main" class="container">
-			<header id="header">
-				<div class="row">
-					<div class="col-xs-12 col-md-6">
-						<div class="header-item bg-0">
-							<div class="line">
-								<a href="#" id="header-logo" class="site-logo navbar-brand"><img src="images/logo.png"></a>
+			<section class="header">
+				<header id="header">
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<div class="header-item bg-0">
 
-							</div>
+								<div class="line col-xs-12" style="padding-bottom: 0px; padding-top: 10px; z-index: 1000">
+									<a href="/Siglod" id="header-logo" class="site-logo navbar-brand"><img src="images/logo.png" style="width: 180px;"></a>
+                  <a target="_blank" href="http://www.miur.it"><img src="images/siglodlogobanner-miur.png" style="width: 100px" /></a>
+                  <a target="_blank" href="http://www.ponrec.it"><img src="images/siglodlogobanner-ponrec.png" style="width: 100px" /></a>
+                  <a target="_blank" href="http://www.sviluppoeconomico.gov.it"><img src="images/siglodlogobanner-minsvil.png" style="width: 100px" /></a>
+								</div>
 
-							<div class="line">
-								<p id="header-slogan headline">Sistema Intelligente di supporto alla Gestione e alla Localizzazione delle Discariche e dei Rifiuti</p>
 
-								<div class="social-btn">
-									<!--<a class="icon-twitter-bird" href="#"></a>
-									<a class="icon-linkedin-rect" href="#"></a>
-									<a class="icon-facebook-rect" href="#"></a>-->
+								<div class="line">
+									<p id="header-slogan-headline">Sistema Intelligente di supporto alla Gestione<br /> e alla Localizzazione delle Discariche e dei Rifiuti</p>
+									<div class="social-btn" style="margin-top: -20px; ">
+										<a class="icon-twitter-bird" href="https://twitter.com/progettosiglod" target="_blank" style="color: #a55198;"></a>
+										<a class="icon-linkedin-rect" href="#" style="color: #a55198;"></a>
+										<a class="icon-facebook-rect" href="https://www.facebook.com/SistemaSiglod/?fref=ts" target="_blank" style="color: #a55198;"></a>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-xs-12 col-md-6">
-						<div class="header-item bg-4">
-							<a id="menu-open" class="" href="javascript:void(0);">Open Menu<span></span></a>
+						<div class="col-xs-12 col-md-6">
+							<div class="header-item bg-4">
+								<a id="menu-open" class="" href="javascript:void(0);">Open Menu<span></span></a>
+								<nav id="navigation" class="header-menu">
+									<div class="menu"></div>
+								</nav>
+								<nav id="submenu" class="header-menu bg-2">
 
-							<nav id="navigation" class="header-menu">
-								<div class="menu"></div>
-							</nav>
-
-							<nav id="submenu" class="header-menu bg-2">
-								<ul>
-									<li id="portal-personaltools-wrapper">Personal</li>
-								</ul>
-							</nav>
+									<ul><li id="portal-personaltools-wrapper">Personal</li></ul>
+								</nav>
+							</div>
 						</div>
 					</div>
-				</div>
-			</header>
+				</header>
+			</section>
+
+			<div id="portal-top"> </div>
 
 			<section class="main-content">
-                <div class="row matchHeight-container">
-                    <div class="col-xs-12 col-md-8 content text-block box P30 bg-0">col1</div>
-                    <div class="col-xs-12 col-md-4 l-portlets">col2</div>
-                </div>
+		                <div class="row matchHeight-container">
+                		    <div id="fullsize" class="col-xs-12 col-md-6 content text-block box bg-0">col1</div>
+		                    <div class="col-xs-12 col-md-6 l-portlets">col2</div>
+                		</div>
+			</section>
 
-
+			<section class="footer">
 				<div class="row">
+
+				    <div class="footer">
+				       <div id="portletFooterManager" class="row">
+					  <div id="portletFooterA" class="span2">
+					     Inigo Consulting is a Malaysian based fully employee owned
+					     company that provides consultancy services for non-profits, government agencies and
+					     companies to help them deliver their goals in a cost effective manner.
+					  </div>
+					  <div id="portletFooterB" class="span2">
+					     Inigo Consulting is a Malaysian based fully employee owned
+					     company that provides consultancy services for non-profits, government agencies and
+					     companies to help them deliver their goals in a cost effective manner.
+					  </div>
+					  <div id="portletFooterC" class="span2">
+					     Inigo Consulting is a Malaysian based fully employee owned
+					     company that provides consultancy services for non-profits, government agencies and
+					     companies to help them deliver their goals in a cost effective manner.
+					  </div>
+					  <div id="portletFooterD" class="span2">
+					     Inigo Consulting is a Malaysian based fully employee owned
+					     company that provides consultancy services for non-profits, government agencies and
+					     companies to help them deliver their goals in a cost effective manner.
+					  </div>
+					  <div id="portletFooterE" class="span2">
+					     Inigo Consulting is a Malaysian based fully employee owned
+					     company that provides consultancy services for non-profits, government agencies and
+					     companies to help them deliver their goals in a cost effective manner.
+					  </div>
+					  <div id="portletFooterF" class="span2">
+					     Inigo Consulting is a Malaysian based fully employee owned
+					     company that provides consultancy services for non-profits, government agencies and
+					     companies to help them deliver their goals in a cost effective manner.
+			                  </div>
+			               </div>
+			            </div>
+
 					<footer id="footer">
 						<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="footer-item P30 bg-4">
@@ -91,22 +131,22 @@
 								<p id="footer-slogan">Sistema Intelligente di supporto alla Gestione e alla Localizzazione delle Discariche e dei Rifiuti</p>
 
 								<div class="social-btn el-bottom">
-									<a class="icon-twitter-bird" href="#"></a>
+									<a class="icon-twitter-bird" href="https://twitter.com/progettosiglod" target="_blank" ></a>
 									<a class="icon-linkedin-rect" href="#"></a>
-									<a class="icon-facebook-rect" href="#"></a>
+									<a class="icon-facebook-rect" href="https://www.facebook.com/SistemaSiglod/?fref=ts" target="_blank" ></a>
 								</div>
 							</div>
 						</div>
 
 						<div class="col-xs-12 col-sm-6 col-md-2">
 							<div class="footer-item P30 bg-4">
-								<h5><small>Get in Touch</small></h5>
-
+								<h5><small>Contatti</small></h5>
 								<p>I.N.G.V. <br />Via di Vigna Murata 605, 00143, Roma</p>
-
 								<p class="el-bottom">
-									P:+39 123 444 5678<br />
-									E: <a href="mailto:info@none.com">info@none.com</a>
+									<br />
+									<a class="btn custom-btn" href="/contatti">
+                    Vedi tutti
+                  </a>
 								</p>
 							</div>
 						</div>
@@ -114,34 +154,37 @@
 						<div class="col-xs-12 col-sm-6 col-md-2">
 							<div class="footer-item P30 bg-2">
 								<h5><small>Funding</small></h5>
-
-								<p>Fondo europeo di sviluppo regionale</p>
-
 								<p class="el-bottom">PON04a2_F - SIGLOD</p>
+
+                <p>
+                  <a class="btn custom-btn" href="/finanziamento">
+                    Vedi tutti
+                  </a>
+                </p>
+
 							</div>
 						</div>
 
 						<div class="col-xs-12 col-sm-6 col-md-4">
-							<div class="footer-item footer-item_subscribe P30 bg-1">
-								<h5><small>Newsletter Subscription</small></h5>
+              <div class="footer-item footer-item_subscribe P30 bg-1">
+								<h5><small>Newsletter</small></h5>
 
 								<form id="footer-form" action="#">
-									<p>keep in touch</p>
+									<p>Iscriviti per ricevere gli aggiornamenti</p>
 
-									<input type="text" />
+									<input type="text">
 
 									<button type="submit"><i class="arrow"></i></button>
 								</form>
 
 								<p class="el-bottom">&copy; 2016 Istituto Nazionale di Geofisica e Vulcanologia</p>
 							</div>
+
+
 						</div>
 					</footer>
 				</div>
 			</section>
-		</div>
-
-
 
 		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
@@ -150,6 +193,26 @@
 		<script type="text/javascript" src="js/jquery.fs.boxer.min.js"></script>
 		<script type="text/javascript" src="js/jquery.easing.js"></script>
 		<script type="text/javascript" src="js/jquery.main.js"></script>
+
+      <script type="text/javascript">
+        $('#portaltab-index_html').remove();
+        if ($('div.l-portlets').is(':empty')){
+          $('div.l-portlets:empty').remove();
+          $('#fullsize').removeClass('col-md-6');
+          $('#fullsize').addClass('col-md-12');
+        }
+
+        $('#portal-top > .position-0').attr('class', '');
+        $('.InHeaderPortletManager1').attr('class', '');
+
+        $('.formid-desidero-convenzionarmi').addClass('info-item box P30 bg-7 corner');
+
+        $('#submenu').prepend('<a href="http://93.63.40.253:8888/" target="_blank" class="sysaccess">Accesso al Decision Support System</a>');
+
+        $('#personaltools-login').html('login');
+
+
+      </script>
 
 
 	</body>
